@@ -1,0 +1,460 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    perspective: 600px;
+}
+
+.container {
+    width: 1200px;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background: url(../image/back.jpg) no-repeat;
+    background-size: cover;
+}
+
+.opcity {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(68, 74, 81, 0.8);
+}
+
+.logo {
+    margin-left: 87px;
+    margin-top: 30px;
+}
+
+.logo h4 {
+    color: white;
+    font-size: 22px;
+    transition: all .4s ease-in-out;
+}
+
+.logo h4:hover {
+    transform: translateZ(-10px);
+}
+
+.logo span {
+    color: #f7600e;
+}
+
+.men {
+    color: white;
+    float: right;
+    margin-top: -43px;
+    margin-right: 160px;
+}
+
+.men span {
+    font-size: 18px;
+}
+
+.men i {
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+.design {
+    margin-top: 200px;
+}
+
+.design h1 {
+    color: white;
+    font-size: 47px;
+    display: none;
+}
+
+.design span {
+    color: #f7600e;
+}
+
+.design p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 52%;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.design button {
+    width: 190px;
+    height: 35px;
+    margin-left: 26px;
+    margin-top: 33px;
+    background: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    transition: all .4s ease-in-out;
+}
+
+.design button:hover {
+    background-color: #f7600e;
+    border: 1px solid #000000;
+}
+
+.down i {
+    color: white;
+    margin-top: 90px;
+    font-size: 22px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px;
+    transition: all .4s ease-in-out;
+}
+
+.down i:hover {
+    background-color: #f7600e;
+    border: 1px solid #000000;
+}
+
+.work {
+    width: 100%;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icon i {
+    color: #f7600e;
+    border: 1px solid #cbcdcf;
+    border-radius: 50%;
+    padding: 36px;
+    transition: all .4s ease-in-out;
+}
+
+.features {
+    transition: all .4s ease-in-out;
+}
+
+.features:hover {
+    transform: translateZ(20px);
+}
+
+.features h4 {
+    color: #3b434c;
+    margin-top: 30px;
+}
+
+.features p {
+    color: #60666e;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    line-height: 2;
+}
+
+.features:hover p {
+    color: #f7600e;
+}
+
+.icon:hover i {
+    background-color: #f7600e;
+    border: 1px solid #000000;
+    color: white;
+}
+
+.sub {
+    width: 100%;
+    height: 293px;
+    background: url(../image/coffe.jpg) no-repeat 50% 47%;
+    background-size: cover;
+}
+
+.opcity1 {
+    width: 100%;
+    height: 293px;
+    background-color: rgba(68, 74, 81, 0.8);
+}
+
+.sub .put {
+    margin-top: 130px;
+}
+
+.put input {
+    width: 620px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.subscribe {
+    margin-top: 133px;
+}
+
+.subscribe button {
+    width: 210px;
+    height: 50px;
+    background-color: #f7600e;
+    color: white;
+    border: 1px solid #f7600e;
+    border-radius: 8px;
+    margin-left: -59px;
+    transition: all .4s ease-in-out;
+}
+
+.subscribe button:hover {
+    transform: translateZ(-20px);
+}
+
+.ourwork {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.ourwork span {
+    color: #f7600e;
+}
+
+.ourwork p {
+    width: 41%;
+    margin-left: 361px;
+    margin-top: 20px;
+    line-height: 2;
+    color: #3b434c;
+}
+
+.ourwork .item {
+    overflow: hidden;
+    width: 30%;
+    float: left;
+    margin-left: 1.333333%;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.ourwork .item:hover .over {
+    display: block;
+}
+
+.ourwork .item:hover {
+    transform: translateZ(10px);
+}
+
+.ourwork .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .8);
+    color: white;
+    display: none;
+}
+
+.item .over h3 {
+    margin-top: 90px;
+}
+
+.item .over button {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    color: #f7600e;
+    border: 1px solid #f7600e;
+    border-radius: 8px;
+    margin-top: 90px;
+}
+
+.ourwork .show button {
+    width: 210px;
+    height: 50px;
+    background-color: white;
+    color: #afb2b4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 40px;
+    transition: all .4s ease-in-out;
+}
+
+.ourwork .show button:hover {
+    color: white;
+    background-color: #f7600e;
+    border: 1px solid #000000;
+    transform: translateZ(10px);
+}
+
+.client {
+    width: 100%;
+    height: 500px;
+    background: url(../image/women.jpg) no-repeat 50% 119%;
+    background-size: cover;
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(68, 74, 81, 0.8);
+}
+
+.client .clientsays img {
+    margin-top: 80px;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+.client .clientsays img:hover {
+    transform: rotate(360deg);
+}
+
+.client .clientsays p {
+    color: white;
+    width: 57%;
+    margin-top: 40px;
+    margin-left: 253px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+.client .clientsays span {
+    color: white;
+    font-size: 18px;
+}
+
+.our span {
+    color: #f7600e;
+}
+
+.our p {
+    width: 45%;
+    margin-left: 330px;
+    margin-top: 30px;
+    color: #7e8286;
+}
+
+.ourteam {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ourteam .worker {
+    margin-top: 60px;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+
+.ourteam .worker:hover {
+    transform: translateZ(10px);
+}
+
+.ourteam .worker img {
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+    filter: grayscale(1);
+}
+
+.ourteam .worker:hover img {
+    filter: none;
+    border-bottom: 3px solid #f7600e;
+}
+
+.ourteam .worker h2 {
+    margin-top: 25px;
+    color: #9da1a5;
+    transition: all .4s ease-in-out;
+}
+
+.ourteam .worker:hover h2 {
+    color: #000000;
+}
+
+.ourteam .worker i {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 25px;
+    background-color: #9da1a5;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.ourteam .worker:hover i {
+    background-color: #f7600e;
+}
+
+.ourteam .worker p {
+    margin-top: 25px;
+    color: #9da1a5;
+    transition: all .4s ease-in-out;
+}
+
+.ourteam .worker:hover p {
+    color: #f7600e;
+}
+
+.contact {
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/pairs.jpg);
+    background-position: 77% 91%;
+    background-repeat: no-repeat;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(68, 74, 81, 0.8);
+}
+
+.hello h1 {
+    margin-top: 70px;
+    color: white;
+}
+
+.hello span {
+    color: #f7600e;
+}
+
+.hello p {
+    color: white;
+    width: 45%;
+    margin-left: 319px;
+    font-size: 15px;
+    margin-top: 25px
+}
+
+.information {
+    float: left;
+    width: 13%;
+    margin-left: 207px;
+}
+
+.information input {
+    margin-top: 70px;
+    width: 320px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.text {
+    margin-top: 150px;
+}
+
+.text textarea {
+    width: 682px;
+    margin-left: -81px;
+    height: 180px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    color: #cfd0d2;
+}
+
+.vedio {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
